@@ -1,0 +1,443 @@
+[
+  {
+    "story": "Aria entered the front_yard.\nAiden entered the front_yard.\nThe grapefruit is in the green_bucket.\nAria moved the grapefruit to the blue_container.\nAiden exited the front_yard.\nNoah entered the playroo",
+    "agent": "aria",
+    "fact": "grapefruit_at_blue_container",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Olivia entered the closet.\nAria entered the closet.\nIsla entered the closet.\nThe orange is in the green_drawer.\nAria exited the closet.\nOlivia moved the orange to the blue_crate.\nIsla exited the close",
+    "agent": "olivia",
+    "fact": "orange_at_blue_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Carter entered the den.\nAva entered the den.\nThe corn is in the blue_crate.\nAva exited the den.\nAva entered the den.\nCarter moved the corn to the red_bucket.\nWhere will Carter look for the corn?",
+    "agent": "carter",
+    "fact": "corn_at_red_bucket",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Isabella entered the den.\nOlivia entered the den.\nThe broccoli is in the blue_pantry.\nIsabella exited the den.\nOlivia moved the broccoli to the red_drawer.\nAbigail entered the garden.\nIsabella entered",
+    "agent": "olivia",
+    "fact": "broccoli_at_red_drawer",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Isabella entered the den.\nOlivia entered the den.\nThe broccoli is in the blue_pantry.\nIsabella exited the den.\nOlivia moved the broccoli to the red_drawer.\nAbigail entered the garden.\nIsabella entered",
+    "agent": "isabella",
+    "fact": "broccoli_at_red_drawer",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Abigail entered the TV_room.\nAria entered the TV_room.\nThe strawberry is in the red_drawer.\nAbigail exited the TV_room.\nAbigail entered the TV_room.\nAria moved the strawberry to the blue_drawer.\nWhere",
+    "agent": "aria",
+    "fact": "strawberry_at_blue_drawer",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Amelia entered the pantry.\nEthan loves the pumpkin\nLiam entered the pantry.\nThe turnip is in the red_basket.\nEthan entered the closet.\nLiam exited the pantry.\nAmelia moved the turnip to the blue_pantr",
+    "agent": "amelia",
+    "fact": "turnip_at_blue_pantry",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Amelia entered the pantry.\nEthan loves the pumpkin\nLiam entered the pantry.\nThe turnip is in the red_basket.\nEthan entered the closet.\nLiam exited the pantry.\nAmelia moved the turnip to the blue_pantr",
+    "agent": "liam",
+    "fact": "turnip_at_blue_pantry",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": false,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Carter entered the living_room.\nJames entered the living_room.\nThe green_pepper is in the green_bathtub.\nCarter moved the green_pepper to the blue_crate.\nJames exited the living_room.\nHunter entered t",
+    "agent": "carter",
+    "fact": "green_pepper_at_blue_crate",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ethan entered the closet.\nAmelia entered the closet.\nJames entered the closet.\nThe tomato is in the blue_container.\nJames exited the closet.\nJames loves the orange\nAmelia moved the tomato to the green",
+    "agent": "amelia",
+    "fact": "tomato_at_green_basket",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ethan entered the closet.\nAmelia entered the closet.\nJames entered the closet.\nThe tomato is in the blue_container.\nJames exited the closet.\nJames loves the orange\nAmelia moved the tomato to the green",
+    "agent": "james",
+    "fact": "tomato_at_green_basket",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Avery entered the living_room.\nOliver entered the living_room.\nOlivia entered the living_room.\nThe tomato is in the green_cupboard.\nOliver exited the living_room.\nOlivia moved the tomato to the blue_s",
+    "agent": "olivia",
+    "fact": "tomato_at_blue_suitcase",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Aiden entered the porch.\nEthan entered the porch.\nThe peas is in the red_cupboard.\nOwen entered the kitchen.\nAiden moved the peas to the red_suitcase.\nEthan exited the porch.\nWhere will Aiden look for",
+    "agent": "aiden",
+    "fact": "peas_at_red_suitcase",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Logan entered the pantry.\nAmelia entered the pantry.\nNoah entered the front_yard.\nNoah exited the front_yard.\nThe pear is in the red_treasure_chest.\nLogan exited the pantry.\nLogan entered the pantry.\n",
+    "agent": "amelia",
+    "fact": "pear_at_blue_pantry",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mila entered the crawlspace.\nJayden entered the crawlspace.\nThe radish is in the blue_pantry.\nLogan entered the hall.\nLogan exited the hall.\nMila moved the radish to the red_crate.\nJayden exited the c",
+    "agent": "mila",
+    "fact": "radish_at_red_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Abigail entered the staircase.\nElizabeth entered the staircase.\nThe lemon is in the blue_pantry.\nElizabeth exited the staircase.\nAbigail moved the lemon to the green_crate.\nWhere will Abigail look for",
+    "agent": "abigail",
+    "fact": "lemon_at_green_crate",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Abigail entered the staircase.\nElizabeth entered the staircase.\nThe lemon is in the blue_pantry.\nElizabeth exited the staircase.\nAbigail moved the lemon to the green_crate.\nWhere will Elizabeth look f",
+    "agent": "elizabeth",
+    "fact": "lemon_at_green_crate",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Owen entered the cellar.\nMason entered the back_yard.\nElla entered the back_yard.\nOwen exited the cellar.\nThe lettuce is in the green_container.\nMason exited the back_yard.\nElla moved the lettuce to t",
+    "agent": "ella",
+    "fact": "lettuce_at_blue_suitcase",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Owen entered the cellar.\nMason entered the back_yard.\nElla entered the back_yard.\nOwen exited the cellar.\nThe lettuce is in the green_container.\nMason exited the back_yard.\nElla moved the lettuce to t",
+    "agent": "mason",
+    "fact": "lettuce_at_blue_suitcase",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Jack entered the kitchen.\nJayden entered the kitchen.\nElizabeth entered the kitchen.\nThe tangerine is in the green_bathtub.\nElizabeth exited the kitchen.\nJack exited the kitchen.\nJayden moved the tang",
+    "agent": "jayden",
+    "fact": "tangerine_at_red_drawer",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Jayden entered the bathroom.\nHunter entered the bathroom.\nThe banana is in the red_bathtub.\nJayden moved the banana to the green_bathtub.\nHunter exited the bathroom.\nWhere will Jayden look for the ban",
+    "agent": "jayden",
+    "fact": "banana_at_green_bathtub",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Hannah entered the back_yard.\nAbigail entered the back_yard.\nThe green_pepper is in the red_bucket.\nAbigail moved the green_pepper to the green_drawer.\nMason entered the back_yard.\nHannah exited the b",
+    "agent": "abigail",
+    "fact": "green_pepper_at_green_drawer",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ethan entered the kitchen.\nMila entered the kitchen.\nAria entered the kitchen.\nThe pineapple is in the blue_bathtub.\nEthan moved the pineapple to the red_basket.\nMila exited the kitchen.\nMila entered ",
+    "agent": "ethan",
+    "fact": "pineapple_at_red_basket",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Elizabeth entered the closet.\nOliver entered the closet.\nThe cucumber is in the blue_bottle.\nElizabeth exited the closet.\nElizabeth entered the closet.\nOliver moved the cucumber to the green_crate.\nJa",
+    "agent": "oliver",
+    "fact": "cucumber_at_green_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mason entered the garage.\nOwen entered the garage.\nThe melon is in the green_container.\nEthan entered the lounge.\nMason exited the garage.\nOwen moved the melon to the red_suitcase.\nWhere will Owen loo",
+    "agent": "owen",
+    "fact": "melon_at_red_suitcase",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mason entered the garage.\nOwen entered the garage.\nThe melon is in the green_container.\nEthan entered the lounge.\nMason exited the garage.\nOwen moved the melon to the red_suitcase.\nWhere will Mason lo",
+    "agent": "mason",
+    "fact": "melon_at_red_suitcase",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ava entered the office.\nChloe entered the office.\nThe peas is in the red_basket.\nAva exited the office.\nChloe moved the peas to the green_container.\nChloe exited the office.\nAva entered the dining_roo",
+    "agent": "chloe",
+    "fact": "peas_at_green_container",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ava entered the office.\nChloe entered the office.\nThe peas is in the red_basket.\nAva exited the office.\nChloe moved the peas to the green_container.\nChloe exited the office.\nAva entered the dining_roo",
+    "agent": "ava",
+    "fact": "peas_at_green_container",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mia entered the front_yard.\nJames entered the front_yard.\nJames exited the front_yard.\nJack entered the front_yard.\nThe grapes is in the red_cupboard.\nMia exited the front_yard.\nJack moved the grapes ",
+    "agent": "jack",
+    "fact": "grapes_at_green_box",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mila entered the cellar.\nJayden entered the cellar.\nThe potato is in the blue_bottle.\nJayden exited the cellar.\nJayden loves the onion\nMila moved the potato to the red_crate.\nWhere will Mila look for ",
+    "agent": "mila",
+    "fact": "potato_at_red_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Mila entered the cellar.\nJayden entered the cellar.\nThe potato is in the blue_bottle.\nJayden exited the cellar.\nJayden loves the onion\nMila moved the potato to the red_crate.\nWhere will Jayden look fo",
+    "agent": "jayden",
+    "fact": "potato_at_red_crate",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "James entered the living_room.\nJayden entered the garden.\nAmelia entered the living_room.\nJayden exited the garden.\nThe watermelon is in the red_crate.\nAmelia moved the watermelon to the blue_pantry.\n",
+    "agent": "amelia",
+    "fact": "watermelon_at_blue_pantry",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ethan hates the green_pepper\nJack entered the front_yard.\nEthan entered the front_yard.\nThe orange is in the blue_crate.\nEthan moved the orange to the green_bathtub.\nJack exited the front_yard.\nJack e",
+    "agent": "ethan",
+    "fact": "orange_at_green_bathtub",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Isabella entered the bedroom.\nHunter entered the bedroom.\nThe plum is in the blue_drawer.\nIsabella moved the plum to the red_treasure_chest.\nHannah entered the back_yard.\nHunter exited the bedroom.\nHu",
+    "agent": "isabella",
+    "fact": "plum_at_red_treasure_chest",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Avery entered the office.\nOlivia entered the office.\nOlivia hates the spinach\nThe tomato is in the green_bucket.\nAvery moved the tomato to the blue_crate.\nMason entered the office.\nOlivia exited the o",
+    "agent": "avery",
+    "fact": "tomato_at_blue_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Aiden entered the master_bedroom.\nWilliam entered the crawlspace.\nWilliam exited the crawlspace.\nOwen entered the master_bedroom.\nThe onion is in the red_drawer.\nAiden moved the onion to the red_crate",
+    "agent": "aiden",
+    "fact": "onion_at_red_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Sophia entered the living_room.\nOlivia entered the living_room.\nThe watermelon is in the red_bottle.\nOlivia exited the living_room.\nSophia moved the watermelon to the green_crate.\nChloe entered the li",
+    "agent": "sophia",
+    "fact": "watermelon_at_green_crate",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Sophia entered the living_room.\nOlivia entered the living_room.\nThe watermelon is in the red_bottle.\nOlivia exited the living_room.\nSophia moved the watermelon to the green_crate.\nChloe entered the li",
+    "agent": "olivia",
+    "fact": "watermelon_at_green_crate",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Owen entered the dining_room.\nAbigail entered the dining_room.\nOwen exited the dining_room.\nLogan entered the dining_room.\nThe spinach is in the red_cupboard.\nAbigail moved the spinach to the blue_pan",
+    "agent": "abigail",
+    "fact": "spinach_at_blue_pantry",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Elizabeth entered the workshop.\nIsla entered the workshop.\nThe pear is in the green_basket.\nLiam entered the workshop.\nElizabeth exited the workshop.\nLiam exited the workshop.\nElizabeth entered the wo",
+    "agent": "isla",
+    "fact": "pear_at_green_bucket",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Isabella entered the staircase.\nWilliam entered the living_room.\nMia entered the living_room.\nThe lime is in the green_basket.\nMia exited the living_room.\nWilliam moved the lime to the green_container",
+    "agent": "william",
+    "fact": "lime_at_green_container",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Liam entered the laundry.\nMila hates the apple\nAvery entered the laundry.\nThe pear is in the red_bathtub.\nLiam loves the cabbage\nMila entered the porch.\nAvery moved the pear to the green_crate.\nLiam e",
+    "agent": "avery",
+    "fact": "pear_at_green_crate",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ethan entered the bathroom.\nAria entered the bathroom.\nLogan entered the bathroom.\nThe corn is in the red_bucket.\nAria moved the corn to the red_basket.\nEthan exited the bathroom.\nAria hates the persi",
+    "agent": "aria",
+    "fact": "corn_at_red_basket",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Jayden entered the bathroom.\nMia entered the bathroom.\nThe asparagus is in the green_basket.\nElla loves the turnip\nJayden exited the bathroom.\nElla entered the lounge.\nMia moved the asparagus to the r",
+    "agent": "mia",
+    "fact": "asparagus_at_red_treasure_chest",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Jayden entered the bathroom.\nMia entered the bathroom.\nThe asparagus is in the green_basket.\nElla loves the turnip\nJayden exited the bathroom.\nElla entered the lounge.\nMia moved the asparagus to the r",
+    "agent": "jayden",
+    "fact": "asparagus_at_red_treasure_chest",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Aria entered the staircase.\nHunter entered the staircase.\nAmelia entered the front_yard.\nThe lemon is in the blue_pantry.\nAria moved the lemon to the green_envelope.\nHunter loves the plum\nHunter exite",
+    "agent": "aria",
+    "fact": "lemon_at_green_envelope",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ella entered the front_yard.\nAmelia entered the front_yard.\nThe cucumber is in the blue_crate.\nWilliam entered the sunroom.\nElla exited the front_yard.\nAmelia moved the cucumber to the green_crate.\nWh",
+    "agent": "amelia",
+    "fact": "cucumber_at_green_crate",
+    "expected": true,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ella entered the front_yard.\nAmelia entered the front_yard.\nThe cucumber is in the blue_crate.\nWilliam entered the sunroom.\nElla exited the front_yard.\nAmelia moved the cucumber to the green_crate.\nWh",
+    "agent": "ella",
+    "fact": "cucumber_at_green_crate",
+    "expected": false,
+    "baseline_correct": true,
+    "cot_correct": true,
+    "epistemic_correct": true
+  },
+  {
+    "story": "Ava entered the office.\nElizabeth entered the office.\nThe radish is in the green_crate.\nAva exited the office.\nElizabeth moved the radish to the blue_drawer.\nMila entered the office.\nWhere will Elizab",
+    "agent": "elizabeth",
+    "fact": "radish_at_blue_drawer",
+    "expected": true,
+    "baseline_correct": false,
+    "cot_correct": true,
+    "epistemic_correct": true
+  }
+]
