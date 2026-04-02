@@ -2,9 +2,6 @@
 
 **Theory of Mind Reasoning via Epistemic Logic and Large Language Models**
 
-*Research prototype built as part of a PhD application to the DesiRes project,
-IRIT Toulouse (2026–2029), supervised by Emiliano Lorini and Jean-Guy Mailly.*
-
 ---
 
 ## What this is
@@ -189,9 +186,6 @@ In the advanced demo, you can type:
 ---
 
 ## Research context
-
-This prototype directly addresses the core question of the
-**DesiRes project** (IRIT Toulouse, 2026–2029):
 
 > *How can formal logical reasoning be integrated with LLMs to overcome their
 > limitations in theory of mind, causal reasoning, and explanation?*
